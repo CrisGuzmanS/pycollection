@@ -1,6 +1,6 @@
 # collection
 
-Collection is an amazing library that allows you to iterate through a list, but it returns a transformed item. It has a lot of methods to interact with the collection. It works similar than laravel collections.
+Collection is an amazing library that allows you to iterate through a list, but it returns a transformed item. It has a lot of methods to interact with the collection. It works similar than laravel collections. Current version is 1.0.0
 
 ## Basic usage
     

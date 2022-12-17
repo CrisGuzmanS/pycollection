@@ -1,1 +1,4 @@
 venv/
+dist/
+build/
+collection.egg-info/
