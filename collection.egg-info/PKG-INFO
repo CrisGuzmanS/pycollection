@@ -1,15 +1,15 @@
 Metadata-Version: 2.1
-Name: pycollection
+Name: collection
 Version: 1.0.0
 Summary: Collection iterator over classes
 Home-page: UNKNOWN
-Author: Cristian Guzmán
+Author: Cristian Guzmán (Florian Dedov)
 Author-email: <cristian.guzman.contacto@gmail.com>
 License: UNKNOWN
 Description: 
         # collection
         
-        Collection is an amazing library that allows you to iterate through a list, but it returns a transformed item. It has a lot of methods to interact with the collection. It works similar than laravel collections. Current version is 1.0.0
+        Collection is an amazing library that allows you to iterate through a list, but it returns a transformed item. It has a lot of methods to interact with the collection. It works similar than laravel collections.
         
         ## Basic usage
             
@@ -53,7 +53,6 @@ Description:
         | first       |
         | append    |
         | items      |
-        
-Keywords: python,collection,laravel,iterator,pycollection
+Keywords: python,collection,laravel,iterator
 Platform: UNKNOWN
 Description-Content-Type: text/markdown
