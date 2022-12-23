@@ -17,7 +17,7 @@ class Collection:
 
     def json(self) -> list:
         """
-
+        jsonifies the list
         """
         return self._items
 
@@ -46,25 +46,25 @@ class Collection:
 
     def item(self, item):
         """
-
+        transforms each of the list element when ite
         """
         return item
 
     def first(self):
         """
-
+        gets the first item of the list
         """
         return self.item(self._items[0])
 
     def append(self, element):
         """
-
+        add a new element to the list
         """
         self._items.append(element)
 
     def items(self) -> list:
         """
-
+        retrieves the collection list
         """
         return self._items
 

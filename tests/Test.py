@@ -1,6 +1,6 @@
 import unittest
 from test import support
-from src import Collection
+from pycollection import Collection
 
 class MyTestCase(unittest.TestCase):
 
