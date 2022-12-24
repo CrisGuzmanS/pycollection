@@ -1,4 +1,5 @@
 from typing import Callable
+import random
 
 class Collection:
     def __init__(self, items: list):
@@ -55,6 +56,13 @@ class Collection:
         gets the first item of the list
         """
         return self.item(self._items[0])
+
+    def get(self, index:int):
+        return self.item(self._items[index])
+
+    def random(self):
+        index = random.randrange(len(self._items))
+        return self.get(index)
 
     def append(self, element):
         """

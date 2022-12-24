@@ -1,6 +1,6 @@
 # pycollection
 
-pycollection is an amazing library that allows you to iterate through a list, but it returns a transformed item. It has a lot of methods to interact with the collection. It works similar than laravel collections. Current version is 1.0.2. 
+pycollection is an amazing library that allows you to iterate through a list, but it returns a transformed item. It has a lot of methods to interact with the collection. It works similar than laravel collections.
 
 ## Instalation
 
@@ -55,3 +55,5 @@ As you can see, it allows for an easy-to-read syntax for navigating between list
 | first()                           | gets the first item of the list                      |
 | append(element)             | add a new element to the list                        |
 | items()                  | retrieves the collection list |
+| random()                      | retrieves a random item from the collection      |
+| get(index:int)                | retrieves an element according to the given index |

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '1.0.3'
+VERSION = '1.0.4'
 DESCRIPTION = 'Collection iterator over classes'
 
 with codecs.open(os.path.join(os.path.abspath(os.path.dirname(__file__)), "README.md"), encoding="utf-8") as fh:
@@ -18,7 +18,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=["typing"],
+    install_requires=["typing","random"],
     keywords=['python', 'collection', 'laravel', 'iterator', 'pycollection'],
     classifiers=[]
 )
